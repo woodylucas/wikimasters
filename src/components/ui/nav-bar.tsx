@@ -1,11 +1,10 @@
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 import {
   NavigationMenu,
-  NavigationMenuList,
   NavigationMenuItem,
+  NavigationMenuList,
 } from "@/components/ui/navigation-menu";
-
-import { Button } from "@/components/ui/button";
 
 export default function NavBar() {
   return (
