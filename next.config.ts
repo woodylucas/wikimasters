@@ -1,5 +1,6 @@
-import type { NextConfig } from "next";
 import { dirname } from "node:path";
+import type { NextConfig } from "next";
+
 // tells turbopack where the absolute path of where we are at the moment
 const nextConfig: NextConfig = {
   turbopack: {
